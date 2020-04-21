@@ -59,7 +59,7 @@ public class mainframe extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Trajan Pro", 1, 14)); // NOI18N
         jLabel1.setText("Aplikasi Kasir MiniMarket");
 
-        cb_type.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Makanan", "Minuman", "Alat Tulis", "Obat", "Peralatan Mandi", " ", " ", " " }));
+        cb_type.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Makanan", "Minuman", "Sembako", "Alat Tulis", "Obat", "Peralatan Mandi", "Detergent & Pelembut", " ", " ", " " }));
 
         btn_submit.setText("Submit");
         btn_submit.addActionListener(new java.awt.event.ActionListener() {

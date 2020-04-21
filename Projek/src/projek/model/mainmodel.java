@@ -18,6 +18,15 @@ public class mainmodel {
     private String price;
     private Date expired;
 
+    public void setExpired(Date expired) {
+        this.expired = expired;
+    }
+
+    public Date getExpired() {
+        return expired;
+    }
+
+    
     public void setName(String name) {
         this.name = name;
     }
@@ -49,14 +58,6 @@ public class mainmodel {
 
     public String getPrice() {
         return price;
-    }
-
-    public void setExpired(Date expired) {
-        this.expired = expired;
-    }
-
-    public Date getExpired() {
-        return expired;
     }
     
 }

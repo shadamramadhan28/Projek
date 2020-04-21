@@ -30,7 +30,7 @@ public class maincontroll extends basecontroll {
        map.put(1, model.getName());
        map.put(2, model.getType());
        map.put(3, model.getStock());
-       map.put(3, model.getPrice());
+       map.put(4, model.getPrice());
        map.put(5, date);
        
        
